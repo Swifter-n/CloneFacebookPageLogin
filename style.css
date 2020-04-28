@@ -1,0 +1,54 @@
+*{margin: 0;padding: 0}
+body{font-family: arial; background: #ecf0f1;}
+/* Start Heading*/
+header{overflow: hidden;color: #fff; width: 100%;background: #003d99; height: 100px}
+header .top{margin-top: 50px;}
+header .container{margin: auto; width: 1000px}
+header .topLeft{float: left; margin-top: -110px; margin-right: 500px; width: 500px}
+header img{width: 226px; margin-left: 50px;}
+header .topRight{float: right; margin-top: -150px;  width: 500px;}
+.topRight input[type=email]{padding: 5px;margin-right: 40px; border-radius: 1px;border:0;margin-bottom: 5px;margin-top: 5px}
+.topRight input[type=password]{padding: 5px; border-radius: 1px;border:0;margin-bottom: 5px;margin-top: 5px;}
+.topRight input[type=submit]{padding: 5px; background: #0047b3; color: #fff;margin-left: 12px;margin-top: 15px;border:0;cursor: pointer;}
+.topRight p{font-size: 12px}
+.topRight a{color: #bdc3c7; text-decoration: none;font-size: 12px;}
+.topRight a:hover{text-decoration: underline;}
+.topRight input[type=checkbox]{width: 15px;margin-right: 5px;}
+.topRight span{font-size: 12px; color:#bdc3c7 }
+/* End Heading */
+
+/* Start Article */
+article .container{
+	margin: auto;
+	width: 1000px;
+}
+article{overflow: hidden;}
+article .bottomLeft{
+	margin-top: 50px;
+	float: left;
+	width: 500px;
+}
+article .bottomRight{
+	margin-top: 50px;
+float: right;
+width: 500px;
+}
+article h3{text-align: justify;font-size: 15;font-weight: bold;line-height: 28px;margin: 0 100px;}
+article img{width: 300px; margin-left: 150px;}
+article .bottomRight h1{font-size: 35px;line-height: 25px; margin-bottom: 20px;}
+article .bottomRight h4{font-weight: bold;font-size: 20px; margin-bottom: 15px;}
+article .bottomRight input[type=text]{padding: 10px;border-radius: 5px; width:250px;}
+article .bottomRight .table1{padding: 10px;border-radius: 5px; width:250px;position: relative;left: -136px;margin-bottom: 10px} 
+article .bottomRight input[type=email]{padding: 10px; border-radius: 5px;width: 530px; margin-bottom: 10px;}
+article .bottomRight input[type=password]{padding: 10px; border-radius: 5px;width: 530px; margin-bottom: 10px;}
+article .bottomRight span{font-weight: normal;font-size: 15px; margin-bottom: 1px;display: block;}
+article .bottomRight select{padding: 5px;margin-bottom: 10px;}
+article .bottomRight option{text-align: center;}
+article .bottomRight input[type=radio]{margin-left:10px;margin-right: 5px; margin-bottom: 20px;}
+article .bottomRight input[type=submit]{font-size: 20px;text-align: justify;margin-bottom: 20px; background: #2ecc71;height:30px;width: 200px;border-radius: 5px;border:0; cursor: pointer;line-height: 30px;text-align: center;color: #fff;font-weight: bold;}
+article .bottomRight p{font-size:12px;margin-bottom: 10px;text-align: justify;}
+article .bottomRight .odd{font-weight: bold;font-size: 13px;margin-top: 20px;}
+article .bottomRight .odd a{text-decoration: none;font-size: 12px}
+article .bottomRight .odd a:hover{text-decoration: underline;}
+article .bottomRight a{width: 50px; text-decoration: none;font-size: 10px;}
+article .bottomRight a:hover{text-decoration: underline;}
